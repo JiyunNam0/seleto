@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- 스와이퍼 라이브러리 -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link href="css/reset.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/21e161ac95.js" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script src="js/main.js"></script>
+   <title>SELECTO COFFEE</title>
+</head>
+<body>
+
+   <div id="mobile_menu">
+      <div class="mobile_menu_inner">
+         <div class="mobile_menu_content">
+            <i class="fa-solid fa-xmark closeBtn"></i>
+            <div class="mobile_menu_list">
+               <div class="menus">
+                  <ul>
+                     <li class="hidden_menu_list">
+                        <p>메뉴</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </li>
+                     <li class="category_list">
+                        <a href="">Signature</a>
+                        <a href="">Coffee</a>
+                        <a href="">Cookie</a>
+                        <a href="">Beverage</a>
+                        <a href="">Deli&Dessert</a>
+                        <a href="">MD</a>
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="hidden_menu_list">
+                        <p>셀렉토커피</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </li>
+                     <li class="category_list">
+                        <a href="">브랜드 스토리</a>
+                        <a href="">HISTORY</a>
+                        <a href="">경쟁력</a>
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="hidden_menu_list">
+                        <p>매장안내</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </li>
+                     <li class="category_list">
+                        <a href="">매장 찾기</a>
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="hidden_menu_list">
+                        <p>WHAT'S NEW</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </li>
+                     <li class="category_list">
+                        <a href="">새로운 소식</a>
+                        <a href="">보도자료</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="sns">
+                  <a href="#">
+                     <img src="./images/naver.png" alt="네이버 링크">
+                  </a>
+                  <a href="#">
+                     <img src="./images/youtube.png" alt="네이버 링크">
+                  </a>
+                  <a href="#">
+                     <img src="./images/instagram.png" alt="네이버 링크">
+                  </a>
+               </div>
+               <button class="menuLink">창업안내</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <main id ="main">
+      <header id ="header">
+         <header class="header">
+            <div class="header_inner">
+               <h1 class="logo">
+                  <img src="./images/logo.png" alt="로고">
+               </h1>
+               <ul class="menu">
+                  <li><a href="#">메뉴</a></li>
+                  <li><a href="#">셀렉토커피</a></li>
+                  <li><a href="#">매장안내</a> </li>
+                  <li><a href="#">WHAT'S NEW</a></li>
+               </ul>
+               <div class="link">
+                  <button class="franchise_info">창업안내</button>
+                  <button class="hamburger_button">&#9776;</button>
+               </div>
+            </div>
+         </header>
+         <div class="header_hidden">
+            <div class="header_hidden_inner">
+               <ul class="menu_hidden">
+                  <ul>
+                     <li><a href="#">브랜트 스토리</a></li>
+                     <li><a href="#">HISTORY</a></li>
+                     <li><a href="#">경쟁력</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="#">Signature</a></li>
+                     <li><a href="#">Coffee</a></li>
+                     <li><a href="#">Cookies</a></li>
+                     <li><a href="#">Beverage</a></li>
+                     <li><a href="#">Deli&Dessert</a></li>
+                     <li><a href="#">MD</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="#">매장 찾기</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="#">새로운 소식</a></li>
+                     <li><a href="#">보도자료</a></li>
+                  </ul>
+               </ul>
+            </div>
+         </div>
+      </header>
+   
+      <section class="swiper mainswiper">
+         <div class="sns_info">
+            <p>
+               <a href="">
+                  <img src="./images/naver.png" alt="셀렉토 네이버 링크 이동">
+               </a>
+            </p>
+            <p>
+               <a href="">
+                  <img src="./images/youtube.png" alt="셀렉토 유튜브 링크 이동">
+               </a>
+            </p>
+            <p>
+               <a href="">
+                  <img src="./images/instagram.png" alt="셀렉토 인스타그램 링크 이동">
+               </a>
+            </p>
+         </div>
+         <div class="swiper-wrapper maininner">
+            <div class="swiper-slide mainslide">
+               <picture>
+                  <source media="(max-width:675px)" srcset="./images/main_slide_beverage_mobile.png" >
+                  <img src="./images/main_slide_beverage.png" alt="첫번째이미지슬라이드">
+               </picture>
+            </div>
+            <div class="swiper-slide mainslide">
+               <picture>
+                  <source media="(max-width:675px)" srcset="./images/main_slide_winter_mobile.png" >
+                  <img src="./images/main_slide_winter.png" alt="두번째이미지슬라이드">
+               </picture>
+            </div>
+            <div class="swiper-slide mainslide">
+               <picture>
+                  <source media="(max-width:675px)" srcset="./images/main_slide_coffee_mobile.png" >
+                  <img src="./images/main_slide_coffee.png" alt="세번째이미지슬라이드">
+               </picture>
+            </div>
+         </div>
+         <div class="swiper-pagination"></div>
+      </section>
+   
+      <script>
+         new Swiper('.mainswiper', {
+            autoplay: {
+               delay: 5000, 
+            },
+            pagination: {
+               el: '.swiper-pagination',
+               clickable: true
+            },
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 10,
+            centeredSlides: true,
+         })
+      </script>
+   
+      <section id="section_menu">
+         <div class="section_inner">
+            <div class="category_btn">
+               <h1 class="title">SELETO MENU</h1>
+               <div class="section_selection_list">
+                  <button type="button" class="is_active">SIGNATRE</button>
+                  <button type="button" class="">BEVERAGE</button>
+                  <button type="button"class="">COFFEE</button>
+                  <button type="button" class="">COOKIE</button>
+               </div>
+            </div>
+            <article class="section_selected_menu">
+               <div class="selected_menu_img">
+                  <picture class="bg_item">
+                     <source media="(max-width:1024px)" srcset="./images/menu_signature_tablet.png" >
+                     <img src="./images/menu_signature.png" alt="시그니처 메뉴 이미지">
+                  </picture>
+                  <picture class="bg_item is_hide">
+                     <source media="(max-width:1024px)" srcset="./images/menu_beverage_tablet.png" >
+                     <img src="./images/menu_beverage.jpg" alt="음료 메뉴 이미지">
+                  </picture>
+                  <picture class="bg_item is_hide">
+                     <source media="(max-width:1024px)" srcset="./images/menu_coffee_tablet.png" >
+                     <img src="./images/menu_coffee.png" alt="커피 메뉴 이미지">
+                  </picture>
+                  <picture class="bg_item  is_hide">
+                     <source media="(max-width:1024px)" srcset="./images/menu_cookie_tablet.png" >
+                     <img src="./images/menu_cookie.png" alt="쿠키 메뉴 이미지">
+                  </picture>
+               </div>
+               <div class="selected_menu_explain">
+                  <div class="category_title">
+                     <h3 class="title">SlGNATURE</h3>
+                     <p class="desc is_show">셀렉토 감성과 재미를 듬뿍 담아낸, 셀렉토에서 맛볼 수 있는 시그니처 음료</p>
+                     <p class="desc">고객의 라이프 스타일에 맞춰 더욱 다양하게 즐길 수 있는 셀렉토의 음료 라인업!</p>
+                     <p class="desc">셀렉토는 품질 좋은 원두를 선별해, 최적의 로스팅 포인트로 더욱 섬세하게 균형잡힌 풍미의 커피를 고객에게 선사합니다.</p>
+                     <p class="desc">남녀노소, 어디서나 맛있게! 셀렉토 시그니처 수제 쿠키</p>
+                  </div>
+                  <div class="selected_category_item">
+                     <div class="category_item">
+                        <p><img src="./images/signature-item-01.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/signature-item-02-1.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/signature-item-03-1.png" alt="시그니처 음료 첫번째" ></p>
+                     </div>
+                     <div class="category_item is_hide">
+                        <p><img src="./images/c-beverage-item-01.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/c-beverage-item-02.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/c-beverage-item-03.png" alt="시그니처 음료 첫번째" ></p>
+                     </div>
+                     <div class="category_item is_hide">
+                        <p><img src="./images/c-coffee-item-01.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/c-coffee-item-02.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/c-coffee-item-03.png" alt="시그니처 음료 첫번째" ></p>
+                     </div>
+                     <div class="category_item is_hide">
+                        <p><img src="./images/c-cookie-item-01.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/c-cookie-item-02.png" alt="시그니처 음료 첫번째" ></p>
+                        <p><img src="./images/c-cookie-item-03.png" alt="시그니처 음료 첫번째" ></p>
+                     </div>
+                  </div>
+                  <div class="category_recomm">
+                     <div class="category_recomm_item">
+                        <p class="title">추천 토핑류</p>
+                        <div class="category_topping_wrap">
+                           <div class="topping is_show">
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-01.png" alt="시럽 첫번째">
+                                 <figcaption class="desc">시럽_바닐라빈</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-02.png" alt="시럽 두번째">
+                                 <figcaption class="desc">시럽_카라멜</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-03.png" alt="시럽 세번째">
+                                 <figcaption class="desc">우유_오트밀</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-04.png" alt="시럽 네번째">
+                                 <figcaption class="desc">크림_흑임자</figcaption>
+                              </figure>
+                           </div>
+                           <div class="topping">
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-02.png" alt="시럽 두번째">
+                                 <figcaption class="desc">시럽_카라멜</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-03.png" alt="시럽 세번째">
+                                 <figcaption class="desc">우유_오트밀</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-04.png" alt="시럽 네번째">
+                                 <figcaption class="desc">크림_흑임자</figcaption>
+                              </figure>
+                           </div>
+                           <div class="topping">
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-03.png" alt="시럽 세번째">
+                                 <figcaption class="desc">우유_오트밀</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-04.png" alt="시럽 네번째">
+                                 <figcaption class="desc">크림_흑임자</figcaption>
+                              </figure>
+                           </div>
+                           <div class="topping">
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-01.png" alt="시럽 첫번째">
+                                 <figcaption class="desc">시럽_바닐라빈</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-02.png" alt="시럽 두번째">
+                                 <figcaption class="desc">시럽_카라멜</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-03.png" alt="시럽 세번째">
+                                 <figcaption class="desc">우유_오트밀</figcaption>
+                              </figure>
+                              <figure class="topping_item">
+                                 <img src="./images/c-topping-04.png" alt="시럽 네번째">
+                                 <figcaption class="desc">크림_흑임자</figcaption>
+                              </figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </article>
+            
+         </div>
+      </section>
+
+      <section id="frencise_banner_main">
+         <div class="frencise_banner_img">
+            <div class="frencise_selecto_img">
+               <img src="./images/banner1-1-1.png" alt="셀렉토 매장 사진">
+            </div>
+         </div>
+         <div class="frencise_inner">
+            <h1>FRENCISE</h1>
+            <div class="frencise_phone">
+               <i class="fa-solid fa-phone"></i>
+               <span>가맹문의</span>
+               <strong>1600-5649</strong>
+            </div>
+            <div class="frencise_comm">
+               <ul>
+                  <li>
+                     <i class="fa-solid fa-pen-to-square"></i>
+                     <p>객실절차</p>
+                  </li>
+                  <li>
+                     <i class="fa-solid fa-sack-dollar"></i>
+                     <p>객실비용</p>
+                  </li>
+                  <li>
+                     <i class="fa-solid fa-comments"></i>
+                     <p>가맹문의</p>
+                  </li>
+                  <li>
+                     <i class="fa-solid fa-store"></i>
+                     <p>인테리어</p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+
+      <section id="event_news_main">
+         <div class="event_news_inner">
+            <h1>EVENT & NEWS</h1>
+            <section class="event_news_content">
+               <div class="event_news_banner">
+                  <figure class="event_news_img">
+                     <img src="./images/new_03.png" alt="이벤트 내용 이미지">
+                  </figure>
+                  <figure class="event_news_img fade_in">
+                     <img src="./images/new_01.jpg" alt="이벤트 내용 이미지" >
+                  </figure>
+                  <figure class="event_news_img fade_in">
+                     <img src="./images/new_02.jpg" alt="이벤트 내용 이미지">
+                  </figure>
+               </div>
+               <figcaption class="event_news_info">
+                  <ul>
+                     <li>
+                        <div class="event_box_list">
+                           <p>EVENT</p>
+                           <h4>[NEW MENU]정성껏 준비한 겨울</h4>
+                           <span>2023/12/11 ~ 2024/02/14</span>
+                        </div>
+                        <button class="event_rink">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                     </li>
+                     <li>
+                        <div class="event_box_list">
+                           <p>EVENT</p>
+                           <h4>[NEW MENU]묵직한 달콤함, 셀렉토 아메리칸 쿠키</h4>
+                           <span>2023/11/16 ~ 2023/12/31</span>
+                        </div>
+                        <button class="event_rink">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                     </li>
+                     <li>
+                        <div class="event_box_list">
+                           <p>EVENT</p>
+                           <h4>[NEW MENU]셀렉토커피X피자알볼로'갓 내린 커피와 갓 구운 피자의 맛있는 페어링'</h4>
+                           <span>2023/11/10 ~ 2024/01/08</span>
+                        </div>
+                        <button class="event_rink">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                     </li>
+                  </ul>
+               </figcaption>
+            </section>
+         </div>
+      </section>
+
+      <section id="store_search_main">
+         <section class="store_search_inner">
+            <div class="store_info">
+               <h3>매장안내</h3>
+               <span>전국에 가까운 셀렉토커피 매장을 확인해보세요.</span>
+               <button class="close_store_search">
+                  <p>가까운스토어 찾기</p>
+                  <i class="fa-solid fa-arrow-right"></i>
+               </button>
+            </div>
+            <div class="swiper storeswiper">
+               <div class="swiper-wrapper storeinner">
+                  <div class="swiper-slide storeslide">
+                     <img src="./images/store-search1_1.png" alt="첫번째이미지슬라이드">
+                  </div>
+                  <div class="swiper-slide storeslide">
+                     <img src="./images/store-search1_2.png" alt="두번째이미지슬라이드">
+                  </div>
+                  <div class="swiper-slide storeslide">
+                     <img src="./images/store-search1_3.png" alt="세번째이미지슬라이드">
+                  </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+         </section>
+      </section>
+
+      <script>
+         new Swiper('.storeswiper', {
+            autoplay: {
+               delay: 3000, 
+            },
+            scrollbar: {
+               el: '.swiper-scrollbar',
+            },
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 10,
+            centeredSlides: true,
+         })
+      </script>
+
+      <footer id="footer_main">
+         <div class="footer_inner">
+            <div class="footer_center_logo">
+               <img src="./images/logo_w.png" alt="하단로고">
+            </div>
+            <h5>개인정보취급방침</h5>
+            <p>주소 : 서울시 구로구 구로3동 222-14 에이스하이엔드타워 2차 1402호   |  도로명주소 : 서울시 구로구 디지털로26길 61 에이스하이엔드타워 2차 1402호
+               </br>대표이사 : 황규연 |  사업자등록번호 : 109-81-99153 |   전화 : 1600-5649 |   팩스 : 02-6340-1701
+            </p>
+            <span>COPYRIGHT ㈜맥스원이링크 ALL RIGHTS RESERVED.</span>
+         </div>
+      </footer>
+   </main>
+   
+   
+</body>
+</html>
